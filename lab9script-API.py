@@ -7,7 +7,7 @@ def main():
     # Test out the get_pokemon_into() function
     # Use breakpoints to view returned dictionary
     poke_info = get_pokemon_info("Rockruff")
-    poke_info = get_pokemon_info(123)
+    #poke_info = str(poke_info).strip().lower
     return
  
 def get_pokemon_info(pokemon_name):
