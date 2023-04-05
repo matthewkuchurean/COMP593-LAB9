@@ -1,8 +1,8 @@
 from tkinter import * 
 from tkinter import ttk 
 from tkinter import messagebox
-from lab9script-API import get_pokemon_info
 
+from poke_api import get_pokemon_info
 root = Tk()
 root.title("Pokémon Information Viewer")
 root.resizable(False, False)
@@ -43,7 +43,6 @@ lbl_weight.grid(row=1, column=0, padx= 10 , pady= 20)
 
 lbl_type = ttk.Label(frm_btm_left, text='Type:')
 lbl_type.grid(row=2, column=0, padx= 10 , pady= 20)
-
 
 
 def handle_getinfo():

@@ -6,8 +6,9 @@ POKE_API_URL = 'https://pokeapi.co/api/v2/pokemon/'
 def main():
     # Test out the get_pokemon_into() function
     # Use breakpoints to view returned dictionary
-    poke_info = get_pokemon_info("Rockruff")
     #poke_info = str(poke_info).strip().lower
+    poke_info = get_pokemon_info("Rockruff")
+    poke_info = get_pokemon_info(123)
     return
  
 def get_pokemon_info(pokemon_name):
